@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #111;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 600px; /* adjust to your image size */
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+#imageGrid {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tile {
+  background-image: url("batman-year1-artwork.jpg"); /* <--- YOUR IMAGE HERE */
+  background-size: 600px 400px; /* Match container size */
+}
